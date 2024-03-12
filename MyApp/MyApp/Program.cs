@@ -12,3 +12,6 @@ static double GetAverage(int[] numbers)
 
     return (double)sum / numbers.Length;
 }
+
+int[] arr = { 2, 1, 31, 6, 9 };
+Console.WriteLine(GetAverage(arr));
