@@ -29,3 +29,4 @@ static double GetMax(int[] numbers)
 
 int[] arr = { 2, 1, 31, 6, 9 };
 Console.WriteLine(GetAverage(arr));
+Console.WriteLine(GetMax(arr));
