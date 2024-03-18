@@ -16,10 +16,10 @@ static double GetAverage(int[] numbers)
 static double GetMax(int[] numbers)
 {
     int max = Int32.MinValue;
-    foreach (var number in numbers)
+    foreach  (var  number in numbers)
     {
-        if (number > max)
-        {
+        if  (number  >  max)
+ {
             max = number;
         }
     }
